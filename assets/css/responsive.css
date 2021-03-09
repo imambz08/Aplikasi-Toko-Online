@@ -1,0 +1,457 @@
+
+@media screen and (max-width: 600px) {
+    .sec-product-detail{
+        position: relative;
+        top: -55px;
+    }
+    .bread-crumb-produk{
+        display: none;
+    }
+    .checkout{
+        position: relative;
+        top: -50px;
+    }
+    .navbar-bottom{
+        line-height: 10px; 
+    }
+    .sec-bg{
+        background-color: #fff;
+        margin-top: -20px;
+    }
+    .navbar-bottom ul{
+        margin-left: -15px;
+    }
+    .prod-preview{
+        width: 100%;
+        height: 200px;
+    }
+    .prod-preview img{
+        width: 100%;
+        height: 200px;
+    }
+    .prod-preview-akun{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 200px;
+    }
+    .prod-preview-akun img{
+        width: 100%;
+        height: 200px;
+    }
+        .icon-item-navbar-bottom{
+        font-size: 14px;
+        color: #fff;
+    }
+    .title-item-navbar-bottom{
+        font-size: 8px;
+        color: #fff;
+    }
+    .nav-bot{
+        border-radius:5px;
+        border:1px solid #f09101;
+    }
+    .nav-bot:hover {
+       border:1px solid #fff;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    
+    .chat-sticky{
+        bottom: 80px;
+    }
+    .whatsapp-sticky{
+        bottom: 80px;
+    }
+    .showsmall-inline{
+        display: inline-block;
+    }
+    .showsmall{
+        display: block;
+    }
+    .hidesmall{
+        display: none;
+    }
+
+    /* NOTIF BOOSTER */
+    .toaster{
+        width: 94%;
+        bottom: 24vw;
+    }
+
+    /* SLIDER */
+    .slider-item{
+        width: 76vw;
+        min-width: 200px;
+        margin: 0px 3.2vw;
+    }
+    .slider-item img{
+        margin: 12px 0px;
+    }
+    .slider-item.slick-center img{
+        box-shadow: 0px 0px 8px #d0d1d4;
+    }
+
+    /* TESTISMONI */
+    .testismoni .slick-next{
+        right: 0px;
+    }
+    .testismoni .slick-prev{
+        left: -10px;
+    }
+
+    /* KERANJANG */
+    .keranjang{
+        padding: 16px 0px;
+    }
+    .keranjang .fs-20{
+        font-size: 16px;
+    }
+
+    /* SIGN IN */
+    #signin,
+    #signin_otp,
+    #signup,
+    #signup_otp{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .bg-sign{
+        padding: 0px 8px;
+        margin-bottom: 60px;
+    }
+    .select2{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    /* LIST PRODUK */
+    .produk-wrap{
+        padding: 8px;
+    }
+    .produk-item{
+        margin: 0;
+        padding: 8px;
+    }
+    .block2{
+        box-shadow: 0px 0px 4px #d0d1d4;
+    }
+    .block2-name{
+        text-decoration: none;
+    
+        font-family: poppins-medium;
+        font-size: 10px;
+    }
+    .harga-coret,
+    .block2-price-coret{
+        text-decoration: line-through;
+    
+        font-family: poppins-medium;
+        font-style: italic;
+        font-size: 10px;
+        font-weight: 200;
+    }
+    .block2-price{
+        font-size: 12px;
+        font-weight: bold;
+        margin-top: -5px;
+    }
+    .block2-txt,
+    .block2-ulasan{
+        padding: 8px 10px;
+        font-family: poppins;
+        margin-top: -5px;
+        font-size: 10px;
+    }
+    .sec-akun-menu{
+        position: relative;
+        margin-top: 125px;
+    }
+    /* KATEGORI */
+    .button-kategori{
+    width: 90px !important; font-size: 8px;
+
+    }
+    b{
+        font-size: 12px;
+    }
+    .cat-bg{
+        height: 24vw;
+        width: 24vw;
+        background-size: cover;
+        margin: 0px 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+    }
+    .cat-nama{
+        font-size: 90%;
+    }
+    .cat{
+        padding: 0px 20px;
+    }
+    .cat .slick-next{
+        right: 4px;
+    }
+    .cat .slick-prev{
+        left: -4px;
+        z-index: 1;
+    }
+
+    /* BANNER */
+    .banner{
+        text-align: center;
+    }
+    .banner h2{
+        font-size: 160%;
+    }
+    .banner h5{
+        font-size: 100%;
+    }
+    /** SLIDE HOME */
+     .swiper-container
+    {
+        top: -100px;
+        position: relative;
+        width: 100%;
+        height: 200px;
+
+    }
+    .kategori-container{
+        margin-top: 5px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    .kategori-container img{
+       
+        width: 53px;
+        height: 53px;
+    }
+    .nama_kategori{
+        font-size: 10px;
+    }
+
+    .search-product{
+        padding: 7px 14px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        background-color: #fff;
+        width: 115%;
+        margin-left: -15px;
+
+    }
+    .item{
+        padding-bottom: 0px;
+    }
+    .container-produk-single{
+        padding: 0px;
+    }
+    .prod-thumb-item{
+        width: 75px;
+        height: 75px;
+        border-radius: 6px;
+        -moz-border-radius: 6px;
+        -webkit-border-radius: 6px;
+        box-shadow: 0px 0px 12px #d0d1d4;
+        overflow: hidden;
+        cursor: pointer;
+        background-size: cover;
+        background-position: center center;
+        margin: 12px 12px 12px 0px;
+    }
+    .sec-product-detail{
+        margin-top: -12px;
+        
+    }
+    .f-sm-8{
+        font-size: 8px;
+    }
+    .f-sm-10{
+        font-size: 10px;
+    }
+    .f-sm-12{
+        font-size: 12px;
+    }
+    .f-sm-14{
+        font-size: 14px;
+    }
+    .f-sm-16{
+        font-size: 16px;
+    }
+    .modal_fixed{
+        background-color: #fff; position: fixed; bottom: -2px; left:0px; 
+        border: 0px;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+
+    }
+    .sec-login{
+        margin-top: -60px;
+    }
+    .form-login{
+        margin-top: 100px;
+    }
+    .bg-sign{
+        box-shadow: 0px;
+        margin-bottom: 0px;
+    }
+    .sec-akun{
+        margin-top: -65px;
+    }
+    .sec-akun-menu{
+        margin-top: 135px;
+    }
+    .sec-profil{
+        position: relative; width: 140px; z-index: 9999; left: 10px; top: -95px
+    }
+    .member{
+        max-width: 125px;
+    }
+    .p-o-sm-10{
+        padding: 10px;
+    }
+    .mt-on-sm-10{
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 601px) {
+    .bg-sign{
+        background: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0px 0px 5px #d0d1d4;
+        }
+    .search-product{
+        position: absolute;
+        padding: 7px 14px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+        background-color: #fff;
+        width: 55%;
+        top: 0px;
+        left: 200px;
+    }
+    .item{
+        padding-bottom: 10px;
+    }
+    .hide-lg{
+        display: none;
+    }
+    .container-produk-single{
+        padding: 0px 30px;
+    }
+    .prod-preview{
+        width: 100%;
+        height: 400px;
+        border-radius: 8px;
+    }
+    .prod-preview img{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .sec-product-detail{
+        margin-top: -35px;
+    }
+    .sec-total{
+        margin-top: 0px;
+    }
+    .f-md-10{
+        font-size: 10px;
+    }
+    .f-md-12{
+        font-size: 12px;
+    }
+    .f-md-14{
+        font-size: 14px;
+    }
+    .f-md-16{
+        font-size: 16px;
+    }
+    .f-md-18{
+        font-size: 18px;
+    }
+     .f-md-20{
+        font-size: 20px;
+    }
+    .f-md-24{
+        font-size: 24px;
+    }
+   .mt-on-md-50{
+    margin-top: 50px;
+   }
+    .mt-on-md-30{
+    margin-top: 20px;
+   }
+   .mt-on-md-20{
+    margin-top: 20px;
+   }
+   .mt-on-md-10{
+    margin-top: 10px;
+   }
+   .bg-sign{
+    margin-bottom: 80px;
+   }
+   .sec-akun{
+    margin-top: -35px;
+   }
+   .prod-preview-akun{
+    position: absolute;
+    top: 0;
+    left: 0;
+        width: 100%;
+        height: 400px;
+        border-radius: 0px;
+        margin-top: -65px;
+    }
+    .prod-preview-akun img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+     .sec-akun-menu{
+        position: relative;
+        margin-top: 305px;
+    }
+    .sec-profil{
+        position: relative; width: 200px; z-index: 9999; left: 10px; top: -125px;
+    }
+    .p-o-md-20{
+        padding: 20px;
+    }
+    .br-md-5{
+        border-radius: 5px; 
+    }
+    .modal_fixed{
+        background-color: #fff; position: relative; 
+       
+
+    }
+    .pesanan_saya{
+        position: absolute;
+        left: 0;
+        top: 54px;
+        z-index: 99999;
+        padding: 0px 3px;
+        width:100%;
+       overflow:hidden;
+       overflow-y:hidden;
+       position:fixed;
+       box-shadow: 0px 0px 3px #ccc;
+       margin-top: 10px;
+    }
+    .pesanan_saya ul{
+        width:100%;
+    }
+    .modal_fixed{
+        background-color: #fff; position: absolute; 
+        top: 100px;
+
+    }
+}
